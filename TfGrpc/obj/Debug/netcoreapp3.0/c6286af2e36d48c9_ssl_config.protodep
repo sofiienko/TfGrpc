@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/SslConfig.cs: tensorflow_serving/config/ssl_config.proto

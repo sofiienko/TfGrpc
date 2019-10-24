@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0\dir1/ErrorCodes.cs: tensorflow/core/protobuf/error_codes.proto\
+ tensorflow/core/lib/core/error_codes.proto

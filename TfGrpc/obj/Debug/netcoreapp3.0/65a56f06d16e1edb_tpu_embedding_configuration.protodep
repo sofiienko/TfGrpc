@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.0/TpuEmbeddingConfiguration.cs: C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/wrappers.proto\
+ tensorflow/core/protobuf/tpu/optimization_parameters.proto\
+ tensorflow/core/protobuf/tpu/tpu_embedding_output_layout.proto\
+ tensorflow/core/protobuf/tpu/tpu_embedding_configuration.proto

@@ -1,0 +1,5 @@
+obj\Debug\netcoreapp3.0/XlaService.cs \
+obj\Debug\netcoreapp3.0/XlaServiceGrpc.cs: tensorflow/compiler/xla/xla_data.proto\
+ tensorflow/compiler/xla/service/hlo.proto\
+ tensorflow/compiler/xla/xla.proto\
+ tensorflow/compiler/xla/rpc/xla_service.proto

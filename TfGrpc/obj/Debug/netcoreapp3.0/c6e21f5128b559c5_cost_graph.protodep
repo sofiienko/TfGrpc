@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.0/CostGraph.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/cost_graph.proto

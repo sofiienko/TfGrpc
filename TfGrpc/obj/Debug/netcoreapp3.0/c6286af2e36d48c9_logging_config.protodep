@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/LoggingConfig.cs: tensorflow_serving/config/log_collector_config.proto\
+ tensorflow_serving/config/logging_config.proto

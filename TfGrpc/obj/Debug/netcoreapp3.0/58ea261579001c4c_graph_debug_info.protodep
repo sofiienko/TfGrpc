@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/GraphDebugInfo.cs: tensorflow/core/protobuf/graph_debug_info.proto

@@ -1,0 +1,6 @@
+obj\Debug\netcoreapp3.0/DebugEvent.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto\
+ tensorflow/core/protobuf/graph_debug_info.proto\
+ tensorflow/core/protobuf/debug_event.proto

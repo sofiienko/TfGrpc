@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/Resources.cs: C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/wrappers.proto\
+ tensorflow_serving/resources/resources.proto

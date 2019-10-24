@@ -1,0 +1,8 @@
+obj\Debug\netcoreapp3.0/Inference.cs: tensorflow/core/example/feature.proto\
+ tensorflow/core/example/example.proto\
+ tensorflow_serving/apis/input.proto\
+ C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/wrappers.proto\
+ tensorflow_serving/apis/model.proto\
+ tensorflow_serving/apis/classification.proto\
+ tensorflow_serving/apis/regression.proto\
+ tensorflow_serving/apis/inference.proto

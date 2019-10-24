@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/Example.cs: tensorflow/core/example/feature.proto\
+ tensorflow/core/example/example.proto

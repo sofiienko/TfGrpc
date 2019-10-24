@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/RemoteTensorHandle.cs: tensorflow/core/framework/types.proto\
+ tensorflow/core/protobuf/remote_tensor_handle.proto

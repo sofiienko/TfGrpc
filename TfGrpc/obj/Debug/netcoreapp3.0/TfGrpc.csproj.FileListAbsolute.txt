@@ -1,0 +1,4 @@
+C:\Users\Anton.Sofienko.GAMANET\source\repos\TfGrpc\TfGrpc\obj\Debug\netcoreapp3.0\TfGrpc.csproj.CoreCompileInputs.cache
+C:\Users\Anton.Sofienko.GAMANET\source\repos\TfGrpc\TfGrpc\obj\Debug\netcoreapp3.0\TfGrpc.AssemblyInfoInputs.cache
+C:\Users\Anton.Sofienko.GAMANET\source\repos\TfGrpc\TfGrpc\obj\Debug\netcoreapp3.0\TfGrpc.AssemblyInfo.cs
+C:\Users\Anton.Sofienko.GAMANET\source\repos\TfGrpc\TfGrpc\obj\Debug\netcoreapp3.0\TfGrpc.csprojAssemblyReference.cache

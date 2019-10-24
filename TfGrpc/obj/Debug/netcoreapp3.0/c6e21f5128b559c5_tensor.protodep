@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.0/Tensor.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto

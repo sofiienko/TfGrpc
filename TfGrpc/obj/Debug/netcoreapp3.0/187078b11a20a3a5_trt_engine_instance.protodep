@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/TrtEngineInstance.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/compiler/tf2tensorrt/utils/trt_engine_instance.proto

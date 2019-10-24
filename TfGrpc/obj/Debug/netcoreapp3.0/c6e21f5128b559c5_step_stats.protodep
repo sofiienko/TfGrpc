@@ -1,0 +1,5 @@
+obj\Debug\netcoreapp3.0/StepStats.cs: tensorflow/core/framework/allocation_description.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/tensor_description.proto\
+ tensorflow/core/framework/step_stats.proto

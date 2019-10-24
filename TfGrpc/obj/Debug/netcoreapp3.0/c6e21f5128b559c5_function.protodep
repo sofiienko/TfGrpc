@@ -1,0 +1,8 @@
+obj\Debug\netcoreapp3.0/Function.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto\
+ tensorflow/core/framework/attr_value.proto\
+ tensorflow/core/framework/node_def.proto\
+ tensorflow/core/framework/op_def.proto\
+ tensorflow/core/framework/function.proto

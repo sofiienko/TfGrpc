@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/TrackableObjectGraph.cs: tensorflow/core/protobuf/trackable_object_graph.proto

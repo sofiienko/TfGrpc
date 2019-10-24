@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/Topology.cs: tensorflow/core/protobuf/tpu/topology.proto

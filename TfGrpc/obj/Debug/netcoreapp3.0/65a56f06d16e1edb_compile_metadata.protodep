@@ -1,0 +1,7 @@
+obj\Debug\netcoreapp3.0/CompileMetadata.cs: tensorflow/compiler/xla/xla_data.proto\
+ tensorflow/compiler/xla/service/hlo.proto\
+ tensorflow/compiler/xla/xla.proto\
+ tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/protobuf/tpu/dynamic_padding.proto\
+ tensorflow/core/protobuf/tpu/compile_metadata.proto

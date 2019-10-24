@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/PlatformConfig.cs: C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/any.proto\
+ tensorflow_serving/config/platform_config.proto

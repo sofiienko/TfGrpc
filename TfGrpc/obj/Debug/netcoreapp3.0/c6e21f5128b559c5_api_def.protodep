@@ -1,0 +1,6 @@
+obj\Debug\netcoreapp3.0/ApiDef.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto\
+ tensorflow/core/framework/attr_value.proto\
+ tensorflow/core/framework/api_def.proto

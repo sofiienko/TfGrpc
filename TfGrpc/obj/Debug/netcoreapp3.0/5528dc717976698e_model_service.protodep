@@ -1,0 +1,14 @@
+obj\Debug\netcoreapp3.0/ModelService.cs \
+obj\Debug\netcoreapp3.0/ModelServiceGrpc.cs: C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/wrappers.proto\
+ tensorflow_serving/apis/model.proto\
+ tensorflow/core/protobuf/error_codes.proto\
+ tensorflow/core/lib/core/error_codes.proto\
+ tensorflow_serving/util/status.proto\
+ tensorflow_serving/apis/get_model_status.proto\
+ C:/Users/Anton.Sofienko.GAMANET/.nuget/packages/grpc.tools/2.24.0/build/native/include/google/protobuf/any.proto\
+ tensorflow_serving/config/log_collector_config.proto\
+ tensorflow_serving/config/logging_config.proto\
+ tensorflow_serving/sources/storage_path/file_system_storage_path_source.proto\
+ tensorflow_serving/config/model_server_config.proto\
+ tensorflow_serving/apis/model_management.proto\
+ tensorflow_serving/apis/model_service.proto

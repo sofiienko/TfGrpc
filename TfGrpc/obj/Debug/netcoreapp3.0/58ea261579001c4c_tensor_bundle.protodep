@@ -1,0 +1,5 @@
+obj\Debug\netcoreapp3.0/TensorBundle.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/tensor_slice.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/versions.proto\
+ tensorflow/core/protobuf/tensor_bundle.proto

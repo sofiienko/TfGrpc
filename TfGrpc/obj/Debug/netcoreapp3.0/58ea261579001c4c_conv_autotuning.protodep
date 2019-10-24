@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/ConvAutotuning.cs: tensorflow/stream_executor/dnn.proto\
+ tensorflow/core/protobuf/conv_autotuning.proto

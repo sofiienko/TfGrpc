@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/DynamicPadding.cs: tensorflow/core/protobuf/tpu/dynamic_padding.proto

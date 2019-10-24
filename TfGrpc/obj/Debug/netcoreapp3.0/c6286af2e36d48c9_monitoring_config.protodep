@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/MonitoringConfig.cs: tensorflow_serving/config/monitoring_config.proto

@@ -1,0 +1,7 @@
+obj\Debug\netcoreapp3.0/RewriterConfig.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto\
+ tensorflow/core/framework/attr_value.proto\
+ tensorflow/core/protobuf/verifier_config.proto\
+ tensorflow/core/protobuf/rewriter_config.proto

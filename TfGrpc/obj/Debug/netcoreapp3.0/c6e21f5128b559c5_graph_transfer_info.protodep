@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/GraphTransferInfo.cs: tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/graph_transfer_info.proto

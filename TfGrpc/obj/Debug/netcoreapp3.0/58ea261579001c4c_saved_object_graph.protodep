@@ -1,0 +1,7 @@
+obj\Debug\netcoreapp3.0/SavedObjectGraph.cs: tensorflow/core/protobuf/trackable_object_graph.proto\
+ tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/protobuf/struct.proto\
+ tensorflow/core/framework/versions.proto\
+ tensorflow/core/framework/variable.proto\
+ tensorflow/core/protobuf/saved_object_graph.proto

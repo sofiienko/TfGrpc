@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/TpuEmbeddingOutputLayout.cs: tensorflow/core/protobuf/tpu/tpu_embedding_output_layout.proto

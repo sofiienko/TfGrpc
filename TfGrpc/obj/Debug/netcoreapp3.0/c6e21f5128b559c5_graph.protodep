@@ -1,0 +1,10 @@
+obj\Debug\netcoreapp3.0/Graph.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/resource_handle.proto\
+ tensorflow/core/framework/tensor.proto\
+ tensorflow/core/framework/attr_value.proto\
+ tensorflow/core/framework/node_def.proto\
+ tensorflow/core/framework/op_def.proto\
+ tensorflow/core/framework/function.proto\
+ tensorflow/core/framework/versions.proto\
+ tensorflow/core/framework/graph.proto

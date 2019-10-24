@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.0/Struct.cs: tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/types.proto\
+ tensorflow/core/protobuf/struct.proto

@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.0/TensorDescription.cs: tensorflow/core/framework/types.proto\
+ tensorflow/core/framework/tensor_shape.proto\
+ tensorflow/core/framework/allocation_description.proto\
+ tensorflow/core/framework/tensor_description.proto

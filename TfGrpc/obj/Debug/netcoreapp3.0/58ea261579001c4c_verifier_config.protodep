@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/VerifierConfig.cs: tensorflow/core/protobuf/verifier_config.proto

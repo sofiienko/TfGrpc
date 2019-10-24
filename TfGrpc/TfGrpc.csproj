@@ -1,0 +1,132 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.10.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.24.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.24.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <Protobuf Include="tensorflow\core\example\example.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\example\feature.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\autotuning.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\bfc_memory_map.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\cluster.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\control_flow.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\conv_autotuning.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\critical_section.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\debug.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\debug_event.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\device_properties.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\eager_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\error_codes.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\graph_debug_info.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\master.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\master_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\meta_graph.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\named_tensor.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\queue_runner.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\remote_tensor_handle.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\replay_log.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\rewriter_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\saved_model.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\saved_object_graph.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\saver.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\struct.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tensorflow_server.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tensor_bundle.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\trace_events.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\trackable_object_graph.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\transport_options.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\verifier_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\worker.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\worker_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\data\experimental\snapshot.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\compilation_result.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\compile_metadata.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\dynamic_padding.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\optimization_parameters.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\topology.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\tpu_embedding_configuration.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\protobuf\tpu\tpu_embedding_output_layout.proto" GrpcServices="Client" />
+    
+    <Protobuf Include="tensorflow\core\framework\allocation_description.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\api_def.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\attr_value.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\cost_graph.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\device_attributes.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\function.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\graph.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\graph_transfer_info.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\kernel_def.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\log_memory.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\node_def.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\op_def.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\reader_base.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\remote_fused_graph_execute_info.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\resource_handle.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\step_stats.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\summary.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\tensor.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\tensor_description.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\tensor_shape.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\tensor_slice.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\types.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\core\framework\variable.proto" GrpcServices="Client" />
+
+    
+    <Protobuf Include="tensorflow/core/lib/core/error_codes.proto" OutputDir="$(Protobuf_OutputPath)dir1"  GrpcServices="Client" />
+    
+    <Protobuf Include="tensorflow\compiler\jit\xla_activity.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\mlir\lite\quantization\quantization_info.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\tf2tensorrt\utils\trt_engine_instance.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\tf2xla\host_compute_metadata.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\tf2xla\tf2xla.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\rpc\xla_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\service\gpu\backend_configs.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\service\gpu\gpu_autotuning.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\service\hlo.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\service\hlo_execution_profile_data.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\service\hlo_profile_printer_data.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\xla.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xla\xla_data.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow\compiler\xrt\xrt.proto" GrpcServices="Client" />
+    
+    
+    
+    
+    <Protobuf Include="tensorflow_serving\apis\classification.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\get_model_metadata.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\get_model_status.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\inference.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\input.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\model.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\model_management.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\model_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\predict.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\prediction_log.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\prediction_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\regression.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\apis\session_service.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\config\logging_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\config\model_server_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\config\monitoring_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\config\platform_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\config\ssl_config.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\core\logging.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\resources\resources.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\util\class_registration_test.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving\util\status.proto" GrpcServices="Client" />
+    
+    <Protobuf Include="tensorflow_serving/sources/storage_path/file_system_storage_path_source.proto" GrpcServices="Client" />
+    <Protobuf Include="tensorflow_serving/sources/storage_path/static_storage_path_source.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+</Project>

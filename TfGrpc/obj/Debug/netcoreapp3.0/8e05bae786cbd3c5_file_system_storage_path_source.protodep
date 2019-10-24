@@ -1,0 +1,1 @@
+obj\Debug\netcoreapp3.0/FileSystemStoragePathSource.cs: tensorflow_serving/sources/storage_path/file_system_storage_path_source.proto

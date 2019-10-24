@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/QueueRunner.cs: tensorflow/core/protobuf/error_codes.proto\
+ tensorflow/core/protobuf/queue_runner.proto

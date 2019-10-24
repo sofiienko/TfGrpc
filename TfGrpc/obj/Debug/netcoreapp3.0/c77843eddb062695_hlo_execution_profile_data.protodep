@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/HloExecutionProfileData.cs: tensorflow/compiler/xla/service/hlo_profile_printer_data.proto\
+ tensorflow/compiler/xla/service/hlo_execution_profile_data.proto

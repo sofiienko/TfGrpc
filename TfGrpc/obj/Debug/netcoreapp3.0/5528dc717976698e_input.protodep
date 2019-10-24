@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.0/Input.cs: tensorflow/core/example/feature.proto\
+ tensorflow/core/example/example.proto\
+ tensorflow_serving/apis/input.proto
